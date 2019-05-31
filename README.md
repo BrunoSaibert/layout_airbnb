@@ -7,3 +7,6 @@ Você deve criar uma tela similar a do Airbnb através do consumo da API de quar
 - Imagem
 - Localização
 - Preço
+
+# Demonstração
+[Demo](http://brunosaibert.com.br/projetos/layout_arbnb/)
