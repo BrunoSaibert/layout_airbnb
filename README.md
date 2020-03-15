@@ -1,5 +1,5 @@
 <p align="center">
-    <img alt="Airbnb" src="./assets/logo.jpg" width="200px" />
+    <img alt="Airbnb" src="https://github.com/BrunoSaibert/layout_arbnb/blob/master/_assets/logo.jpg?raw=true" width="200px" />
 </p>
 
 <h1 align="center">
@@ -20,7 +20,7 @@
   </a>
 </p>
 
-![Demonstração](./assets/airbnb.png)
+![Demonstração](https://github.com/BrunoSaibert/layout_arbnb/blob/master/_assets/airbnb.png?raw=true)
 
 ## 🚀 Projeto
 
