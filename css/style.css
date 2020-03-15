@@ -1,59 +1,111 @@
 * {
-  box-sizing: border-box;
   margin: 0;
   padding: 0;
   font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
 }
 
 .container {
   display: flex;
   flex-wrap: wrap;
+  max-width: 1600px;
+  margin: 0 auto;
 }
 
 .container .card {
-  flex-basis: 25%;
-  width: 100%;
-  padding: 10px;
+  flex-basis: calc(25% - 20px);
+  width: calc(25% - 20px);
+  margin: 10px;
   list-style: none;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 1300px) {
+  .container .card {
+    flex-basis: calc(100% / 3);
+    width: calc(100% / 3);
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .container .card {
+    flex-basis: 50%;
+    width: 50%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .container .card {
+    flex-basis: 100%;
+    width: 100%;
+  }
 }
 
 .container .card .card-img {
   display: block;
-  max-width: 100%;
+  width: 100%;
   margin-bottom: 10px;
   height: 250px;
   object-fit: cover;
+  border-radius: 4px;
+}
+
+@media only screen and (max-width: 1600px) {
+  .container .card .card-img {
+    height: 200px;
+  }
 }
 
 .container .card .card-type {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   font-size: 14px;
-  color: rgba(0, 0, 0, 0.4);
-  text-transform: uppercase;
-  margin-bottom: 5px;
-  font-weight: bold;
+  line-height: 20px;
+  color: #222222;
 }
 
-.container .card .card-title {
-  font-size: 18px;
-  line-height: 24px;
-  font-weight: bold;
-  color: rgba(0, 0, 0, 0.9);
+.container .card .card-type .type {
+  color: #717171;
   margin-bottom: 5px;
 }
 
-.container .card .card-price {
+.container .card .card-type .star {
+  display: flex;
+  align-items: center;
+}
+
+.container .card .card-type .star svg {
+  padding-right: 4px;
+  fill: #ff385c;
+}
+
+.container .card .card-content .card-title {
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 400;
+  color: #222222;
+  margin-bottom: 5px;
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.container .card .card-content .card-price {
   display: block;
   margin-bottom: 5px;
   font-size: 15px;
   line-height: 19px;
-  color: rgba(0, 0, 0, 0.7);
+  color: #222222;
 }
 
-.container .card .card-button {
+.container .card .card-content .card-button {
   background: #333;
   color: #fff;
   text-decoration: none;
   padding: 6px 15px;
   display: inline-block;
   border-radius: 3px;
+  margin-top: auto;
 }
