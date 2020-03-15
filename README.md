@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <p align="center">
     <img alt="Airbnb" src="./assets/logo.jpg" width="200px" />
 </p>
@@ -33,3 +34,17 @@ O objetivo é clonar a lista de locações do Airbnb para fins de estudo.
 - JavaScript
 
 Feito com ♥ by [Bruno Henrique Saibert](https://www.linkedin.com/in/brunohenriquesaibert)
+=======
+# Desafio
+Você deve criar uma tela similar a do Airbnb através do consumo da API de quartos com javascript vanilla e usar flexbox para organizá-los em cards na tela.
+[Link API](http://airbnb.douglasmaia.com/api/properties)
+
+# Resultados esperados
+- Tela com cards contendo
+- Imagem
+- Localização
+- Preço
+
+# Demonstração
+[Demo](http://brunosaibert.com.br/projetos/layout_arbnb/)
+>>>>>>> 891f1a91e234e0b9dd22280160d8e918dc4a7df4
