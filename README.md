@@ -12,7 +12,7 @@
   <img alt="License" src="https://img.shields.io/badge/license-MIT-191A1E">
 
   <a href="https://github.com/BrunoSaibert">
-    <img alt="Made by Bruno Henrique Saibert" src="https://img.shields.io/badge/Made%20by-Bruno%20Henrique520Saibert-191A1E">
+    <img alt="Made by Bruno Henrique Saibert" src="https://img.shields.io/badge/Made%20by-Bruno%20Henrique%20Saibert-191A1E">
   </a>
 
   <a href="https://linkedin.com/in/brunohenriquesaibert">
