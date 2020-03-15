@@ -28,8 +28,10 @@ O objetivo é clonar a lista de locações do Airbnb para fins de estudo.
 
 ## 🔧 Tecnologias
 
-- HTML;
-- CSS;
-- JavaScript
+- HTML: Estrutura
+- CSS: FlexBox e Responsividade
+- JavaScript: Fetch API
 
-Feito com ♥ by [Bruno Henrique Saibert](https://www.linkedin.com/in/brunohenriquesaibert)
+---
+
+Feito com ♥ by [Bruno Henrique Saibert](https://www.brunosaibert.com.br)
