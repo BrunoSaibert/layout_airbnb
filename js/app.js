@@ -1,7 +1,8 @@
 fetch("https://api.sheety.co/30b6e400-9023-4a15-8e6c-16aa4e3b1e72")
-  .then(response => response.json())
-  .then(result => {
-    const container = document.querySelector(".container");
+  .then((response) => response.json())
+  .then((result) => {
+    const cardList = document.querySelector(".card-list");
+    document.querySelector(".loading").remove();
 
     for (let item of result) {
       const li = document.createElement("li");
@@ -20,15 +21,14 @@ fetch("https://api.sheety.co/30b6e400-9023-4a15-8e6c-16aa4e3b1e72")
         </div>
         <h2 class="card-title">${item.name}</h2>
         <span class="card-price"><strong>R$ ${item.price}</strong>/noite</span>
-        
       </div>
       `;
       if (item.photo !== null) {
         li.innerHTML = card_content;
-        container.appendChild(li);
+        cardList.appendChild(li);
       }
     }
   })
-  .catch(function(err) {
+  .catch(function (err) {
     console.error(err);
   });
